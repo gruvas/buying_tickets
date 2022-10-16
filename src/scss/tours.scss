@@ -1,0 +1,62 @@
+
+
+.tour {
+    margin-top: 67px;
+
+    @media (max-width: 985px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        margin-top: 39px;
+    }
+
+    @media (max-width: 845px) {
+        display: block;
+
+        max-width: 555px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 15px;
+    }
+}
+
+
+.tour_type {
+    position: absolute;
+    margin-top: 43px;
+    
+    p {
+        font-size: 16px;
+
+        height: 45px;
+        width: 180px;
+
+        align-items: center;
+        display: grid;
+        text-align: center;
+
+        text-transform: uppercase;
+    }
+}
+
+.tour_type.violet {
+    margin-top: 0;
+    
+    border-radius: 15px 0 12px 0;
+}
+
+// Применяются для окрашивания типа экскурсии 
+// (пример: новинкаб круглвый год)
+.yellow {
+    color: #000;
+    background-color: #FFD83C;
+}
+.violet {
+    color: #fff;
+    background-color: #7553FF;
+}
+.blue {
+    color: #fff;
+    background-color: #099CE8;
+}
